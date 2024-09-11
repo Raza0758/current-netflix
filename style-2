@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+body {
+  background: black;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/background.net.jpg);
+  color: white;
+  /* opacity: 0.2; */
+  /* z-index: 2; */
+}
+.container-overlay {
+  position: absolute;
+  background: black;
+  inset: 0;
+  opacity: 0.2
+}
+
+img {
+  width: 15%;
+  padding: 28px;
+}
+.sign-in {
+  background: red;
+  color: white;
+  padding: 12px;
+  border-radius: 3px;
+  font-size: large;
+  text-decoration: none;
+  position: absolute;
+  top: 4%;
+  left: 85%;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content h1 {
+  font-size: 2.5rem;
+}
+#email {
+  padding: 8px;
+  width: 252px;
+  font-size: 14px;
+  background: rgba(48, 47, 47, 0.74);
+  color: white;
+  border: 2px solid white;
+}
+.content a {
+  background: red;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+}
+
